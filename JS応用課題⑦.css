@@ -1,0 +1,26 @@
+/* 背景を見やすくするため色をかえた(bodyのため全体) */
+body {
+  background-color: lightgreen;
+}
+
+/* 上下左右中央揃え(右にある余っていたmarginが均等に配分されるため) */
+table {
+  margin: auto;
+}
+
+/* カードの大きさを指定 */
+td.card {
+  width: 80px;
+  height: 120px;
+  background-size: cover;
+}
+
+/* カードが裏面の時 */
+td.card.back {
+  background-image: url(./images/z01.gif) !important;
+}
+
+/* カードが揃った時 */
+td.card.finish {
+  opacity: 0;
+}
